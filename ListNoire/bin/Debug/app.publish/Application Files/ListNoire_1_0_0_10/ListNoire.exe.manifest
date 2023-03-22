@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ListNoire.exe" version="1.0.0.10" publicKeyToken="b9020ad7b587ffed" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ListNoire" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ListNoire.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataGridViewPrinter.dll" size="10240">
+      <assemblyIdentity name="DataGridViewPrinter" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5vF6OF2NLTDGFutRryjkQzDxsf7RRroNkvaAe0yc7kU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI.dll" size="1136808">
+      <assemblyIdentity name="Guna.UI" version="1.9.0.1" publicKeyToken="AD275B4BE6718D4B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>V20t4snvW8Hqm91zro9AgAQmADfDtyIn7tJ+mVFmJ20=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2390184">
+      <assemblyIdentity name="Guna.UI2" version="2.0.0.6" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kUNwdhPPoQb8TXF35un4pURziYm2FnzWV4EB8b2wkno=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ListNoire.exe" size="184832">
+      <assemblyIdentity name="ListNoire" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>L2pVmLzyt1EZVFB+YhZQaKCzSUM/9zB+If0iMgnKTqU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ListNoire.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=INFRPC\Administrator" issuerKeyHash="93bbb8f216ea8886a8857de318b4cee44a1eba5d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Zi+SjlPm76btN5GoxjM6E01ZuCiz0/zGsVurBUiQPN0=</DigestValue></Reference></SignedInfo><SignatureValue>FktTsjpACRefjTNL/FJ2GXU/tg10TzL6H6DFGa3DbVwdQCyChKHdCmcThthXibMMOix/7ChZHnX+el1qDhmD0kmva1veCYs8YYjmsGGTdVayiBvr6bftCy/iwZcZru0boubgiOYegAPTuyqQo3n1iz4AUeBQcQDPRYRi7Hxhalk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tpA4afzlh1zCmVXacw0KgffZ/uTzLvKASSEd231HO7NCnsvbbJG+6uwL3uR/IQFwLQefoCUHhzU0exafPW7AEOwsDYGKBL5OymP3qagRj+A/pt5LfoeG3xZWAP3gLxebwCT+gmhXJ5ezIK801rF/CZzaTGWJnLhShCi5ZcKXY/E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dd3c904805ab5bb1c6fcd3b328b8594d133a33c6a89137eda6efe6538e922f66" Description="" Url=""><as:assemblyIdentity name="ListNoire.exe" version="1.0.0.10" publicKeyToken="b9020ad7b587ffed" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=INFRPC\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Cu6MvxhfPMIXxDlrlutUKDLQpljpdwmW6Go4qnJPs64=</DigestValue></Reference></SignedInfo><SignatureValue>EoKS4c7mfRXoNrOGTa0Jy6J8Fi57N/vN+/ZB3NNgnFEAHZRE7blx2eB8ngIuJMePkmeCiDqKmKLA8KYjsiA7zbz1Haiaf7726FxKMCZs4eV+XTMfzwe9oHmGS3tNqWrZu2XH0O318Cp/4N23SASJL283H8T4CxobkdbHQ6BImzM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tpA4afzlh1zCmVXacw0KgffZ/uTzLvKASSEd231HO7NCnsvbbJG+6uwL3uR/IQFwLQefoCUHhzU0exafPW7AEOwsDYGKBL5OymP3qagRj+A/pt5LfoeG3xZWAP3gLxebwCT+gmhXJ5ezIK801rF/CZzaTGWJnLhShCi5ZcKXY/E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQFHri+f2JVrNDOKI0dD8/fjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigASQBOAEYAUgBQAEMAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTIyMDkyOTEyMzAyMVoXDTIzMDkyOTE4MzAyMVowMzExMC8GA1UEAx4oAEkATgBGAFIAUABDAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtpA4afzlh1zCmVXacw0KgffZ/uTzLvKASSEd231HO7NCnsvbbJG+6uwL3uR/IQFwLQefoCUHhzU0exafPW7AEOwsDYGKBL5OymP3qagRj+A/pt5LfoeG3xZWAP3gLxebwCT+gmhXJ5ezIK801rF/CZzaTGWJnLhShCi5ZcKXY/ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAnrmlPb78itNs7EyCS6EFAGE3TUn2UZV58qSQBbU7I+LXyUIxs47Wv71RujffCSu8dOuweT28NHYN5dmOtnZ+KJ7jkFF1S3tEoGavaNZnhVYThoCsBh95oIXo1/xMUauEk9iWxmgXnWrI2l8rLY5/CXHimm1TyJwKQoU1iowAVXQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
